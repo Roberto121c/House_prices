@@ -1,37 +1,59 @@
-## Welcome to GitHub Pages
+# HOUSE PRICES
+### Project overview
+* This projec explores different business metrics and how they can be displayed graphically to follow them
+* I explore the relation between sales, budget, costumers and products
+* We can obtain conclusions that will help us to make better marketing campaigns and improve profits
+* The tools used are SQL server and Power BI 
 
-You can use the [editor on GitHub](https://github.com/Roberto121c/House_prices/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### Objectives:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The goal is to build a sales report that shows summarized information about the business´s current situation to understand how to make more profits. 
 
-### Markdown
+The most important indicators are sales, budget, top customers, and top products:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Part 1: Txtraction 
+The data was taken from the Microsoft sample data and was extracted using SQL server into csv files to use them in the Power BI dashboard.
 
-# Header 1
-## Header 2
-### Header 3
+Date_table was used to retrieve dates about the performances of the sales through time
 
-- Bulleted
-- List
+Sales_table, product_table and customer_table show information about sales, products and customers in that order
 
-1. Numbered
-2. List
+You can see all the SQL queries **[HERE](https://github.com/Roberto121c/Sales_Management/tree/main/Query)**:
 
-**Bold** and _Italic_ and `Code` text
+[![](images/Sales query.PNG)](https://github.com/Roberto121c/Sales_Management/tree/main/Query)
 
-[Link](url) and ![Image](src)
-```
+### Part 2: Transformation 
+You can see in this image the data model used in Power BI after the data was extracted
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+![Data model](images/Data model.png)
 
-### Jekyll Themes
+### Part 3: Load and storage
+The final product is a 3 pages dashboard. The first one tell us a general perspective about the sales performance while other two focus in customers and products
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Roberto121c/House_prices/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+You can see the final dashboard clicking **[HERE](https://app.powerbi.com/groups/me/reports/38779509-37e6-43d9-b1cd-b209b48d75cf/ReportSection)** or in the image below
 
-### Support or Contact
+[![Click for a better analysis](images/PB Sales Overview.PNG)](https://app.powerbi.com/groups/me/reports/38779509-37e6-43d9-b1cd-b209b48d75cf/ReportSection
+)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Part 4: Descriptive and predictive analysis
+The final product is a 3 pages dashboard. The first one tell us a general perspective about the sales performance while other two focus in customers and products
+
+You can see the final dashboard clicking **[HERE](https://app.powerbi.com/groups/me/reports/38779509-37e6-43d9-b1cd-b209b48d75cf/ReportSection)** or in the image below
+
+[![Click for a better analysis](images/PB Sales Overview.PNG)](https://app.powerbi.com/groups/me/reports/38779509-37e6-43d9-b1cd-b209b48d75cf/ReportSection
+)
+
+### Part 5: Vizualizations
+The final product is a 3 pages dashboard. The first one tell us a general perspective about the sales performance while other two focus in customers and products
+
+You can see the final dashboard clicking **[HERE](https://app.powerbi.com/groups/me/reports/38779509-37e6-43d9-b1cd-b209b48d75cf/ReportSection)** or in the image below
+
+[![Click for a better analysis](images/PB Sales Overview.PNG)](https://app.powerbi.com/groups/me/reports/38779509-37e6-43d9-b1cd-b209b48d75cf/ReportSection
+)
+
+### Conclusions
+* The best customers are Jordan Turner, Maurice Shan, Janet Munoz, and Lisa Cai
+* The best product is the Mountain-200 Black but all color sell well
+
+
