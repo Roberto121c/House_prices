@@ -17,28 +17,14 @@ You can see all the script **[HERE](https://github.com/Roberto121c/Sales_Managem
 
 [![](images/Sales query.PNG)](https://github.com/Roberto121c/Sales_Management/tree/main/Query)
 
-### Part 2: Transformation 
+### Part 2: Transformation and Load
 Cual es el objetivo de esta parte
 Que se hizo
 Que herramientas se utilizaron
 You can see all the script **[HERE](https://github.com/Roberto121c/Sales_Management/tree/main/Query)**:
 ![Imagenesl](images/Data model.png)
 
-### Part 3: Load and storage
-Cual es el objetivo de esta parte
-Que se hizo
-Que herramientas se utilizaron
-You can see all the script **[HERE](https://github.com/Roberto121c/Sales_Management/tree/main/Query)**:
-![Imagenesl](images/Data model.png)
-
-### Part 4: Descriptive and predictive analysis
-Cual es el objetivo de esta parte
-Que se hizo
-Que herramientas se utilizaron
-You can see all the script **[HERE](https://github.com/Roberto121c/Sales_Management/tree/main/Query)**:
-![Imagenesl](images/Data model.png)
-
-### Part 5: Vizualizations
+### Part 3: Descriptive and predictive analysis
 Cual es el objetivo de esta parte
 Que se hizo
 Que herramientas se utilizaron
