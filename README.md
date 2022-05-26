@@ -1,19 +1,18 @@
 # HOUSE PRICES
 ### Project overview
-* This projec explores different business metrics and how they can be displayed graphically to follow them
-* I explore the relation between sales, budget, costumers and products
-* We can obtain conclusions that will help us to make better marketing campaigns and improve profits
-* The tools used are SQL server and Power BI 
+* Se hace un proceso de ETL completo usando diferentes tecnologias (Pyspark, beatifulsoup, AWS, sklearn)
+* Se extrae informacion de una pagina de ventas de inmuebles, los datos se suben crudos a S3
+* Con Glue y pyspark se eliminan duplicados, se da formato a los campos y se almacena en athena sql
+* Finalmente se hace EDA y se usa regresion lineal para calcular los valores faltantes del area del inmueble
 
 ### Objectives:
-Cual es el mayor objetivo, para que serviria
+Se puede observar un ETL completo desde obtener datos crudos hasta obtener conocimiento de estos datos
 
 ### Part 1: Extraction 
-Cual es el objetivo de esta parte
-Que se hizo
-Que herramientas se utilizaron
-You can see all the script **[HERE](https://github.com/Roberto121c/Sales_Management/tree/main/Query)**:
-![Imagenesl](images/Data model.png)
+La extraccion se hace de la pagina https://www.vivanuncios.com.mx/s-venta-inmuebles/estado-de-mexico/v1c1097l1014p1
+En esta parte se extrae la informacion usando BeautifulSoup y se usa geopy para calcular las coordenadas
+You can see the full and detailed script **[HERE](https://github.com/Roberto121c/House_prices/blob/main/Code/House_pricing_1.ipynb)**:
+![Imagenesl](/images/house_prices_1_1.PNG)
 
 [![](images/Sales query.PNG)](https://github.com/Roberto121c/Sales_Management/tree/main/Query)
 
