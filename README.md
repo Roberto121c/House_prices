@@ -1,9 +1,10 @@
 # HOUSE PRICES
 ### Project overview
-* Se hace un proceso de ETL completo usando diferentes tecnologias (Pyspark, beatifulsoup, AWS, sklearn)
-* Se extrae informacion de una pagina de ventas de inmuebles, los datos se suben crudos a S3
-* Con Glue y pyspark se eliminan duplicados, se da formato a los campos y se almacena en athena sql
-* Finalmente se hace EDA y se usa regresion lineal para calcular los valores faltantes del area del inmueble
+* Developed a complete ETL process using different technologies (Pyspark, beatifulsoup, AWS, sklearn)
+* Scraped information from a real state webpage, the crude data is stored in S3
+* Cleaned the data with AWS Glue and pyspark, then loaded it to Athena SQL
+* Finally did EDA and model a linear regression to calculate the missing data about total area
+
 
 ### Objectives:
 Se puede observar un ETL completo desde obtener datos crudos hasta obtener conocimiento de estos datos
