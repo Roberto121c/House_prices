@@ -20,23 +20,24 @@ Develop a complete ETL process from crude data to EDA and a simple regression mo
 [![](images/Sales query.PNG)](https://github.com/Roberto121c/Sales_Management/tree/main/Query)
 
 ### Part 2: Transformation and Load
-- Se realiza un glue para pasar los datos de s3 a athena y asi poder analizarlo mejor o almacenarlo
-- La limpieza de los datos se hace con pyspark y consiste en eliminar duplicados y cadenas extras como '+'
-- El almacenamiento se hace en formato parquet a s3 desde donde se puede leer en athena sql
+- With Glue we can move the data from s3 to athena, in this way we can do analysis later with SQL although it is not explored in this project
+- Data cleaning was done in the same Glue job using pyspark
+- The storage is in parquet format to s3 where athena can read it
 - You can see the full and detailed script **[HERE](https://github.com/Roberto121c/House_prices/blob/main/Code/House_pricing_2.py)**:
 ![Imagenesl](images/house_prices_2_1.PNG)
 
 ### Part 3: EDA
-- Se hace un EDA y se descubre que el area_total tiene muchos valores vacios
-- Se manejan y eliminan los outliers
-- Se utiliza sklearn para calcular el area_total usando regresion lineal y los valores precio, numero de baños, cuartos y cocheras
-- Se obtiene un modelo funcional y se calculan los valores faltantes con los coeficientes
+- During the EDA I discovered a lot of missing values in the area_total column
+- I handled outliers and missing values
+- Developed a model using sklearn linear regression, "Precio", "Baños", "Cuartos" and "Cocheras" were the labels
+- Calculated the missing values using the model obtained 
 - You can see the full and detailed script **[HERE](https://github.com/Roberto121c/House_prices/blob/main/Code/House_pricing_3.ipynb)**:
 ![Imagenesl](images/house_prices_3_1.PNG)
 
 ### Conclusions
-* Se extrajo exitosamente la informacion desde una pagina web usando webscraping
-* Se pudo almacenar la informacion en s3 y se paso a athena con ayuda de glue
-* Se hizo EDA y una regresion lineal utilizando sklearn
+* In the future is possible to use the latitude and longitud values to explores prices by zones
+* Maybe we could explore different possibilities to obtain a bigger volume of data to get better results
+* Linear regression is a powerful yet simple model that can give us great results
+
 
 
