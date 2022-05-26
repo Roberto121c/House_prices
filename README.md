@@ -9,7 +9,7 @@
 Se puede observar un ETL completo desde obtener datos crudos hasta obtener conocimiento de estos datos
 
 ### Part 1: Extraction 
-- La extraccion se hace de la pagina https://www.vivanuncios.com.mx/s-venta-inmuebles/estado-de-mexico/v1c1097l1014p1
+- La extraccion se hace de la pagina **[www.vivanuncios.com.mx](https://www.vivanuncios.com.mx/s-venta-inmuebles/estado-de-mexico/v1c1097l1014p1)**
 - En esta parte se extrae la informacion usando BeautifulSoup y se usa geopy para calcular las coordenadas
 - You can see the full and detailed script **[HERE](https://github.com/Roberto121c/House_prices/blob/main/Code/House_pricing_1.ipynb)**:
 ![Imagenesl](/images/house_prices_1_1.PNG)
