@@ -25,15 +25,16 @@ Se puede observar un ETL completo desde obtener datos crudos hasta obtener conoc
 ![Imagenesl](images/house_prices_2_1.PNG)
 
 ### Part 3: EDA
-Cual es el objetivo de esta parte
-Que se hizo
-Que herramientas se utilizaron
-You can see all the script **[HERE](https://github.com/Roberto121c/Sales_Management/tree/main/Query)**:
-![Imagenesl](images/Data model.png)
+- Se hace un EDA y se descubre que el area_total tiene muchos valores vacios
+- Se manejan y eliminan los outliers
+- Se utiliza sklearn para calcular el area_total usando regresion lineal y los valores precio, numero de baños, cuartos y cocheras
+- Se obtiene un modelo funcional y se calculan los valores faltantes con los coeficientes
+- You can see the full and detailed script **[HERE](https://github.com/Roberto121c/House_prices/blob/main/Code/House_pricing_3.ipynb)**:
+![Imagenesl](images/house_prices_3_1.PNG)
 
 ### Conclusions
-* Que se logro?
-* Que herramientas se usaron
-* De que sirve
+* Se extrajo exitosamente la informacion desde una pagina web usando webscraping
+* Se pudo almacenar la informacion en s3 y se paso a athena con ayuda de glue
+* Se hizo EDA y una regresion lineal utilizando sklearn
 
 
